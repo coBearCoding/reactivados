@@ -1,0 +1,320 @@
+.materialert {
+    min-width: 150px;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.1s linear;
+    text-align: left;
+  }
+
+  .materialert ul {
+    padding-left: 20px;
+  }
+
+  .materialert li {
+    list-style-type: disc !important;
+  }
+  .materialert .material-icons {
+    margin-right: 10px;
+  }
+  .materialert.info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+  }
+  .materialert.success {
+    background-color: #43a047;
+    color: #fff;
+  }
+  .materialert.error {
+    background-color: #c62828;
+    color: #fff;
+  }
+  .materialert.danger {
+    background-color: #c62828;
+    color: #fff;
+  }
+  .materialert.warning {
+    background-color: #fbc02d;
+    color: #fff;
+  }
+
+  .alert-info {
+    font-size: small;
+    width: 100%;
+  }
+
+  .file-box {
+    cursor: pointer;
+    border: 1px dashed #00baeb;
+    color: #065cab;
+    padding: 20px;
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
+  }
+  .file-box #fileMessage,
+  .file-box #transferFileMessage {
+    color: "$cyan" !important;
+  }
+  .file-box #clearFile,
+  .file-box #transferClearFile {
+    position: absolute;
+    display: none;
+    top: -5px;
+    right: -5px;
+    padding: 6px 13px;
+    border-radius: 20px;
+    color: white;
+    background: #00baeb;
+  }
+
+  .custom-control {
+    position: relative;
+    display: block;
+    min-height: 1.5rem;
+    margin: 20px 0;
+    /* padding-left: 1.5rem; */
+  }
+
+  .file-box #carnetVacunacionPreview {
+    height: 100px;
+    width: auto;
+  }
+
+  /* modal */
+  .modal-content .icon-success {
+    color: #00baeb;
+  }
+
+  .modal-content .title {
+    font-size: 32px;
+    text-transform: none;
+    font-weight: 500;
+    color: #187d9c;
+  }
+
+  .modal {
+    overflow: visible;
+    /* background: transparent; */
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    width: fit-content;
+    max-height: 80%;
+    max-width: 80%;
+    border-radius: 24px;
+  }
+
+  .modal .text-primary {
+    color: #4285f4;
+  }
+
+  .modal .btn {
+    border-radius: 24px;
+    max-width: 50%;
+  }
+
+  .modal .btn-secondary {
+    background-color: #065cab;
+  }
+
+  .modal .btn-primary {
+    background-color: #00baeb;
+  }
+
+  .modal#planRetorno {
+    background: transparent;
+  }
+
+  .modal#planRetorno a {
+    cursor: pointer;
+  }
+
+  .modal-header {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    z-index: 1000;
+  }
+
+  .modal-header button {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #03d1b9;
+    border: none;
+  }
+
+  .modal-content {
+    padding: 0;
+  }
+
+  .dialog-retorno {
+    max-width: 80%;
+    background-color: transparent;
+  }
+  .dialog-retorno .close {
+    margin: -1rem -1rem -1rem auto;
+    z-index: 1;
+  }
+
+  .modal-content.banner-retorno {
+    padding: 0;
+    height: auto;
+    background: transparent;
+  }
+  .modal-content.banner-retorno .retorno-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+  .modal-content.banner-retorno img {
+    width: 100%;
+  }
+
+  .plan-retorno-terminos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan-retorno-terminos img {
+    max-width: 500px;
+    max-height: 500px;
+    margin-bottom: 1em;
+  }
+
+  .plan-retorno-terminos .btn-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .plan-retorno-success i {
+    font-size: 42px;
+  }
+
+  .plan-retorno-success .btn,
+  .plan-virtual-success .btn {
+    margin-top: 2em;
+  }
+
+  .plan-retorno-success .message,
+  .plan-virtual-success .message {
+    color: #5a5c69;
+  }
+
+  /* nuevo css */
+
+  body {
+    background-color: #00417b;
+    height: 100vh;
+  }
+
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 80px;
+  }
+
+  #planRetornov2 {
+    background: transparent;
+    height: 100%;
+  }
+
+  #planRetornov2 a {
+    cursor: pointer;
+    position: absolute;
+    width: 75%;
+    height: 28%;
+  }
+
+  .logo-reactivacion {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .retorno-info_v2 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  .retorno-info_v2 div {
+    position: relative;
+  }
+
+  .retorno-info_v2 img {
+    height: 100%;
+  }
+
+  .retorno-info_v2 .sub30 {
+    top: 30%;
+    left: 12%;
+  }
+  .retorno-info_v2 .sub60 {
+    top: 60%;
+    left: 12%;
+  }
+
+  .home {
+    width: 40%;
+    text-align: center;
+    color: white;
+  }
+
+  .home p {
+    font-size: 1.4em;
+    line-height: 1.3em;
+  }
+
+  .home input {
+    background: white !important;
+    border-radius: 14px !important;
+    color: black !important;
+    padding-inline: 20px !important;
+    box-sizing: border-box !important;
+  }
+
+  .home .btn,
+  .modal .message + .btn {
+    border-radius: 12px;
+    background-color: #66deff;
+    color: #065cab;
+    text-transform: none;
+    font-weight: 600;
+  }
+
+  .modal .message {
+    font-size: 1.6em;
+    padding: 0 1em;
+  }
+
+  .modal .message span {
+    font-size: 2em;
+  }
+
+  .modal .message small {
+    font-size: 0.6em;
+    display: block;
+    margin: 10px auto 0;
+    width: 60%;
+  }
+
+  .modal .message .error {
+    font-size: 0.8em;
+  }
+
+  .modal .message + .btn {
+    color: #065cab !important;
+  }
